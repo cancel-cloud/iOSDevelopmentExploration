@@ -1,4 +1,5 @@
-iOS Development Exploration 👨‍💻
+# iOS Development Exploration 👨‍💻
+---
 # Introduction 📋
 
 Welcome to iOSDevelopmentExploration, a project aimed at exploring the facets of iOS development. This repository serves as a sandbox for experimenting with various iOS frameworks, libraries, and best practices.
