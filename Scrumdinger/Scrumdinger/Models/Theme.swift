@@ -1,12 +1,8 @@
-//
-//  Theme.swift
-//  Scrumdinger
-//
-//  Created by Lukas Dienst on 12.09.23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
-
 
 enum Theme: String {
     case bubblegum
@@ -35,4 +31,8 @@ enum Theme: String {
     var mainColor: Color {
         Color(rawValue)
     }
+    
+    var name: String {
+            rawValue.capitalized
+        }
 }

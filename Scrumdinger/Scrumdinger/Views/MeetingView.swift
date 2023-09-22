@@ -1,27 +1,22 @@
-//
-//  ContentView.swift
-//  Scrumdinger
-//
-//  Created by Lukas Dienst on 12.09.23.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
-import SwiftData
 
 struct MeetingView: View {
     var body: some View {
         VStack {
-            ProgressView(value: 12, total: 15)
+            ProgressView(value: 5, total: 15)
             HStack {
                 VStack(alignment: .leading) {
-                    Text("Seconds elapsed")
+                    Text("Seconds Elapsed")
                         .font(.caption)
                     Label("300", systemImage: "hourglass.tophalf.fill")
-                    
                 }
                 Spacer()
                 VStack(alignment: .trailing) {
-                    Text("Seconds remaining")
+                    Text("Seconds Remaining")
                         .font(.caption)
                     Label("600", systemImage: "hourglass.bottomhalf.fill")
                 }
@@ -30,7 +25,7 @@ struct MeetingView: View {
             .accessibilityLabel("Time remaining")
             .accessibilityValue("10 minutes")
             Circle()
-                .strokeBorder(lineWidth: 12.0)
+                .strokeBorder(lineWidth: 24)
             HStack {
                 Text("Speaker 1 of 3")
                 Spacer()
@@ -43,7 +38,6 @@ struct MeetingView: View {
         .padding()
     }
 }
-
 
 struct MeetingView_Previews: PreviewProvider {
     static var previews: some View {
